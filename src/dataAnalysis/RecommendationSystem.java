@@ -25,7 +25,7 @@ public class RecommendationSystem
 
     // <Map<"football" - <gigaom, 3>>
     // <Map<"technology" - <gigaom, 12>>
-    LinkedHashMap<String, HashMap<String, Integer>> tag2SiteWeightMap = new LinkedHashMap<String, HashMap<String, Integer>>();
+    HashMap<String, HashMap<String, Integer>> tag2SiteWeightMap = new HashMap<String, HashMap<String, Integer>>();
 
     /** 
      * Constructor to create recommendation system. When this instance is created, 
