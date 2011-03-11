@@ -1,0 +1,88 @@
+************ Data queries using simple API's ***********
+
+
+ Most popular value for column GENDER is 1 with count 4032
+
+ Most popular value for column SITE is gigaom with count 1000
+
+ Most popular value for column AGE is 25 with count 188
+
+ Most popular value for column RATING is 0 with count 4164
+
+ Most popular value for column CITY is Los Angeles with count 57
+
+ Most popular value for column STATE is California with count 521
+
+ Most popular value for column COUNTRY is USA with count 3278
+
+************ Data queries using API's based on Indexes ***********
+
+
+Top 5 most popular STATE for gigaom are as follows :
+Rank 1 : California=71
+Rank 2 : Texas=54
+Rank 3 : New York=48
+Rank 4 : Florida=36
+Rank 5 : 07=31
+
+Top 5 most popular STATE for hubspot are as follows :
+Rank 1 : California=75
+Rank 2 : New York=45
+Rank 3 : Texas=31
+Rank 4 : Florida=26
+Rank 5 : Pennsylvania=25
+
+Top 5 most popular SITE for California are as follows :
+Rank 1 : leader2leader=145
+Rank 2 : free411=125
+Rank 3 : simplyexplained=105
+Rank 4 : hubspot=75
+Rank 5 : gigaom=71
+
+Top 5 most popular SITE for Texas are as follows :
+Rank 1 : leader2leader=70
+Rank 2 : free411=68
+Rank 3 : gigaom=54
+Rank 4 : hubspot=31
+Rank 5 : simplyexplained=29
+
+Top 10 most popular interests for SITE  simplyexplained are as follows :
+Rank 1 : humor=13966
+Rank 2 : stumblers=13858
+Rank 3 : photography=9756
+Rank 4 : bizarre=6639
+Rank 5 : porn=5726
+Rank 6 : internet=5295
+Rank 7 : arts=4831
+Rank 8 : open-source=4554
+Rank 9 : satire=4427
+Rank 10 : science=4285
+
+Top 10 most popular interests for STATE  California are as follows :
+Rank 1 : stumblers=8914
+Rank 2 : humor=8495
+Rank 3 : photography=8132
+Rank 4 : internet=5602
+Rank 5 : bizarre=4975
+Rank 6 : science=3967
+Rank 7 : porn=3860
+Rank 8 : graphic-design=3108
+Rank 9 : nude-art=3021
+Rank 10 : arts=2969
+
+************ Recommendation System: If you like x you may also like y kinds ***********
+
+
+Recommended sites  for your interest  photography are :
+Rank 1 : leader2leader=2265
+Rank 2 : gigaom=1690
+Rank 3 : simplyexplained=1452
+Rank 4 : free411=1380
+Rank 5 : hubspot=866
+
+Recommended sites  for your interest  humor are :
+Rank 1 : free411=3635
+Rank 2 : simplyexplained=1917
+Rank 3 : hubspot=822
+Rank 4 : gigaom=757
+Rank 5 : leader2leader=719
